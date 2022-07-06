@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,34 +10,42 @@
     <style>
         header {
             background-color: palevioletred;
-            border:1px solid gray;
+            border: 1px solid gray;
             box-shadow: 2px 2px 2px gray;
             padding: 10px;
             display: flex;
             justify-content: space-between;
         }
+
         .title {
             font-weight: bold;
             font-family: Arial;
             font-size: 30px;
         }
+
         .nav-bar {
             display: flex;
         }
+
         .nav-bar div {
             margin-right: 30px;
             font-size: 20px;
             font-family: Arial;
             font-weight: bold;
         }
+
         .banner {
             margin-top: 5px;
             box-shadow: 2px 2px 2px gray;
-            border:1px solid gray;
+            border: 1px solid gray;
             background-image: url("/public/image/kidsfashion.jpg");
+            height: 400px;
+            width: 1200px;
+
             background-repeat: no-repeat;
             background-size: 100% 400px;
         }
+
         .side-panel {
             font-size: 30px;
             font-family: Arial;
@@ -50,6 +59,7 @@
         }
     </style>
 </head>
+
 <body class="container-fluid">
     <header>
         <div class="title">
@@ -63,16 +73,17 @@
         </div>
     </header>
     <div class="banner">
-       <div class="side-panel">
-         <div>
-            <h1>Iam a Web Designer</h1>
-            <p>Check My Projects</p>
+        <div class="side-panel">
             <div>
-                <button class="btn btn-danger">Sigin</button>
-                <button class="btn btn-warning">Register</button>
+                <h1>Iam a Web Designer</h1>
+                <p>Check My Projects</p>
+                <div>
+                    <button class="btn btn-danger">Sigin</button>
+                    <button class="btn btn-warning">Register</button>
+                </div>
             </div>
-         </div>
-       </div>
+        </div>
     </div>
 </body>
+
 </html>
